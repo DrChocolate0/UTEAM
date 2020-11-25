@@ -1,0 +1,174 @@
+
+*{
+   /*border: 1px solid red;*/
+   scroll-behavior: smooth;
+}
+
+   .navbar-brand{
+    font-size:50px;
+    }
+
+    .logo{
+    height: 129px;
+    width: 193px;
+    }
+    
+    .jumbotron{
+        height: 560px;
+    }
+    
+    .display-1{
+    position: absolute;
+    bottom:1px;
+    }
+    /*Quienes somos*/
+    .contenedor-QS{
+        display:flex;
+        justify-content:space-evenly;
+        padding: 45px 80px;
+    }
+    .TituloQS{
+        text-align: center;
+        margin-top: 90px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .contenedor-QS p{
+        margin: 35px 40px;
+    }
+
+    /*UX App*/
+    .contenedor-UXAPP{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .TituloUX{
+        text-align: center;
+    }
+    .contenedor-UXAPP p{
+        text-align: center;
+    }
+    .ContenidoUX{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 5%;
+        width: 40%;
+    }
+
+    /*Funciones*/
+    .contenedor-Func{
+        display: flex;
+        justify-content:space-evenly;
+        margin: 10% 0%;
+        text-align:  center;
+    }
+
+    .contenedor-Func p{
+        font-size: 20px;
+    }
+
+    /*Trabaja con Nosotros*/
+    .contenedor-TN{
+        display:flex;
+        justify-content:space-evenly;    
+    }
+
+    .ContenidoTN{
+        display:flex;
+        justify-content:center;    
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+        width: 35%;
+    }
+
+    .TituloTN{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .imgQS{
+        height: 30%;
+        width: 48%;
+    }
+    
+    .contenidoQS{    
+        width: 48%;
+    }
+    /*Video About The product*/
+    .VideoAboutTheProduct{
+        display: flex;
+        margin-top: 7%;
+    }
+    .ContenedorVideo{
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ContenedorVideo iframe{
+        margin:2% 0%
+    }
+
+    /*Form*/    
+    .Formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 10% 0%;
+        width: 100%;
+    }
+
+    .ContenedorForm{
+        width: 35%;
+        text-align: center;
+        align-items: center;
+        border-radius: 35px;
+        border: 2px solid grey;
+        padding: 3%;
+    }
+
+    .datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+    }
+
+    input, a.btn{
+        width: 45%;
+        margin: 4% 0%;
+        text-align: center;
+    }
+    input{
+        border-radius: 10px;
+    }
+    .caja{
+        width: 100%;
+        padding: 1% 3%;
+    }
+    a.btn{
+        background-color: hsla(110, 52%, 53%, 0.986);
+        border-radius: 30px;
+        width: 20%;
+    }
+
+
+	/*.Elipse_11_h {
+		width: 1287px;
+		height: 1593px;
+		position: absolute;
+		overflow: visible;
+		transform: matrix(1,0,0,1,516.6445,-623.5714) rotate(95deg);
+		transform-origin: center;
+	}
+	#Elipse_10_j {
+		opacity: 0.05;
+		fill: url(#Elipse_10_j);
+	}*/
